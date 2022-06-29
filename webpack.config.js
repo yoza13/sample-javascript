@@ -18,7 +18,6 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html",
-      favicon: "./src/Yash.ico",
     }),
     new webpack.DefinePlugin({
       "process.env": JSON.stringify(process.env),
